@@ -1,0 +1,22 @@
+We plan to take the following approach:
+
+1. Challenge 1: This is a classification problem with topics as classes.
+We need to train suitable classifiers. Deciding the right feature vector
+is the key to such problems. We plan to use bit vector of authors,
+a subset of possible words in the language as features. The subset of words
+that can act as good features can be decided based on metrics such as information gain,
+and filtering based on document frequency. A range  of classifiers like decision tree,
+naive bayes, svm etc should be tried for better accuracy, precision and recall. k-fold 
+cross validation on top of that will help in choosing the best among the top performing classifiers.
+
+2. Challenge 2: This is a regression problem with publication year as the target variable.
+We will use the same set of features and planning to brainstorm on more possible features. For regression
+we plan to try linear regression, svm regression. The least error regression is a top perfromer.
+
+3. Bonus Challenge: A fake document can be created if we can learn about the probable syntactic structures
+of the Klautinian language, and the probable words associated with each POS tag of the language. So,
+we again need to learn syntactic trees and POS tags. Fake document can them be created by outputting the
+high probability sentences using the learnt syntactic tree and POS tags.
+
+
+
