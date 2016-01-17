@@ -1,0 +1,5 @@
+for k = 0 percent similarity is 59.3333333333
+for k = 1 percent similarity is 61.0
+for k = 2 percent similarity is 63.4444444444
+for k = 3 percent similarity is 63.2925472747
+for k = 4 percent similarity is 56.2847608454
